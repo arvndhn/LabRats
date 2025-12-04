@@ -107,7 +107,7 @@ Or run it in VS Code with the Jupyter extension.
 ### 4. Example Query
 
 ```python
-query = "What is eye on ai notion with aishield?"
+query = "Hi"
 response = rag_chain.invoke({"input": query})
 print("Response:", response.get('answer'))
 ```
